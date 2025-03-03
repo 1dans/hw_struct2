@@ -1,6 +1,7 @@
 #include <iostream>
 #include "main.h"
 #include "task1.h"
+#include "task2.h"
 using namespace std;
 
 void welcoming()
@@ -17,7 +18,7 @@ int main()
 		cin >> choice;
 		switch (choice) {
 		case '1': task1(); break;
-		case '2': break;
+		case '2': task2(); break;
 		case 'q': break;
 		default: cout << "Такого варіанту немає. Спробуйте ще раз (1/2/q): "; break;
 		}
